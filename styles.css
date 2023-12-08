@@ -341,3 +341,120 @@ footer {
 .contact-icons i {
     font-size: 20px;
 }
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    header {
+        padding: 0.5em 0;
+    }
+
+    nav {
+        margin-top: 0.5em;
+    }
+
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    nav a {
+        margin: 5px 0;
+    }
+
+    .category img {
+        width: 100%;
+    }
+
+    .about {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .about-text {
+        width: 100%;
+        text-align: justify;
+    }
+
+    .about-text ul {
+        text-align: justify;
+    }
+
+    .about-text h2 {
+        font-size: 20px;
+    }
+
+    .artist-image img {
+        width: 150px; /* Adjust size as needed */
+        height: 150px; /* Adjust size as needed */
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .contact-form {
+        max-width: 100%;
+    }
+
+    .contact-icons a {
+        width: 40px;
+        height: 40px;
+    }
+
+    .contact-icons i {
+        font-size: 18px;
+    }
+
+        .about-text ul {
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+        list-style: none;
+    }
+
+    .about-text ul li {
+        position: relative;
+        padding-left: 1em;
+        margin-bottom: 1em;
+        text-align: left;
+    }
+
+    .about-text ul li::before {
+        content: "\2605"; /* Star character */
+        font-size: 1.2em;
+        color: gold; /* Star color */
+        position: absolute;
+        left: 0;
+        top: 0.2em;
+    }
+
+    
+    .about-text ul {
+        padding: 0;
+        margin: 0;
+        text-align: justify;
+        list-style: none;
+    }
+
+    .about-text ul li {
+        position: relative;
+        padding-left: 1em;
+        margin-bottom: 1em;
+        text-align: left;
+        font-size: 14px; /* Adjust the font size as needed */
+        line-height: 1.5; /* Adjust the line height for better readability */
+    }
+
+    .about-text ul li::before {
+        content: "\2605"; /* Star character */
+        font-size: 1.2em;
+        color: gold; /* Star color */
+        position: absolute;
+        left: 0;
+        top: 0.2em;
+    }
+}
