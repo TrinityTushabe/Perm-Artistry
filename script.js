@@ -48,7 +48,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     // Example: Change background color on click for the "Contact" section
-    document.getElementById("contact").addEventListener("click", function () {
-        document.body.style.backgroundColor = "#A9EAFE";
+    document.getElementById("contactSeparator").addEventListener("click", function () {
+        document.body.style.background = "linear-gradient(to right, #ffd700, #333)";
     });
+    
 });
